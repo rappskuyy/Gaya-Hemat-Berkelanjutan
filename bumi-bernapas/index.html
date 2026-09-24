@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bumi Bernapas - Jurnal Edukasi & Artikel Gaya Hemat Berkelanjutan</title>
+  <meta name="description"
+    content="Media publikasi artikel edukasi, riset efisiensi energi, dan panduan gaya hidup hemat berkelanjutan untuk menjaga napas kehidupan bumi.">
+
+  <!-- CSS Utama & FontAwesome -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div id="reading-progress-bar"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <i class="fa-solid fa-leaf"></i>
+        </div>
+        <div>
+          <span>Bumi<span class="gradient-text">Bernapas</span></span>
+          <span class="logo-tagline">Jurnal Edukasi Lingkungan</span>
+        </div>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" class="nav-link active">Beranda</a>
+        <a href="artikel.html" class="nav-link">Artikel</a>
+        <a href="data.html" class="nav-link">Data & Fakta</a>
+        <a href="aksi.html" class="nav-link">Aksi Hemat</a>
+        <a href="tentang.html" class="nav-link">Tentang Kami</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle" title="Ubah Tema (Dark/Light)">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Mobile Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- Featured Headline Article Hero Spotlight -->
+    <section class="featured-hero-article">
+      <div>
+        <div style="display: flex; gap: 0.6rem; align-items: center; margin-bottom: 1rem;">
+          <span class="category-badge badge-headline"><i class="fa-solid fa-star me-1"></i> Laporan Utama</span>
+          <span class="category-badge">Riset & Energetika</span>
+        </div>
+
+        <h1 class="featured-hero-title">Mengapa Menghemat Listrik Rumah Tangga Adalah Kunci Utama Menyelamatkan Suhu Bumi?</h1>
+        <p class="featured-hero-excerpt">Konsumsi energi bahan bakar fosil di sektor pemukiman menyumbang lebih dari 40% emisi karbon perkotaan. Pelajari bagaimana aksi kecil di rumah membawa dampak langsung terhadap pemulihan ekosistem.</p>
+
+        <div class="article-meta" style="margin-bottom: 2rem;">
+          <div class="author-pill">
+            <img src="assets/images/earth.jpg" alt="Tim Peneliti" class="author-avatar-sm">
+            <span>Tim Peneliti Bumi Bernapas</span>
+          </div>
+          <span>•</span>
+          <span><i class="fa-regular fa-calendar me-1"></i> 24 Sep 2026</span>
+          <span>•</span>
+          <span><i class="fa-regular fa-clock me-1"></i> 5 Min Baca</span>
+        </div>
+
+        <button class="btn btn-primary open-article-btn" data-id="101">
+          <i class="fa-solid fa-book-open"></i> Baca Artikel Selengkapnya
+        </button>
+      </div>
+
+      <div class="hero-article-cover">
+        <img src="assets/images/article_eco_tech.jpg" alt="Ilustrasi Artikel Utama Energi Hijau">
+      </div>
+    </section>
+
+    <!-- Section: Artikel Edukasi Populer & Terkini -->
+    <section style="margin-bottom: 4rem;">
+      <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
+        <div>
+          <span class="category-badge" style="margin-bottom: 0.5rem;">Publikasi Terkini</span>
+          <h2 style="font-size: 2rem; font-weight: 800;">Artikel & <span class="gradient-text">Panduan Populer</span></h2>
+        </div>
+        <a href="artikel.html" class="btn btn-secondary" style="padding: 0.6rem 1.25rem; font-size: 0.88rem;">
+          Lihat Semua Artikel <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="article-grid" id="homepage-article-grid">
+        <!-- Populated dynamically by main.js -->
+      </div>
+    </section>
+
+    <!-- Interactive Infographic Feature: Simulator Indikator Napas Bumi -->
+    <section class="grid-2" style="margin-bottom: 4rem; align-items: center;">
+      <div>
+        <span class="category-badge" style="margin-bottom: 0.75rem;"><i class="fa-solid fa-wand-magic-sparkles me-1"></i> Infografis Interaktif</span>
+        <h2 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 1rem;">Simulasikan <span class="gradient-text">Napas Bumi</span> Anda</h2>
+        <p class="text-muted" style="margin-bottom: 1.5rem; font-size: 1.05rem;">Sebagai bagian dari media pembelajaran interaktif, instrumen ini mensimulasikan bagaimana tingkat efisiensi energi harian Anda secara langsung memengaruhi kondisi pemulihan lapisan atmosfer bumi.</p>
+        <div style="display: flex; gap: 1rem;" class="hero-actions">
+          <a href="aksi.html" class="btn btn-primary">
+            <i class="fa-solid fa-list-check"></i> Coba Checklist & Kalkulator
+          </a>
+          <a href="data.html" class="btn btn-secondary">
+            <i class="fa-solid fa-chart-pie"></i> Lihat Laporan Data
+          </a>
+        </div>
+      </div>
+
+      <!-- Simulator Indikator Card -->
+      <div class="breath-card">
+        <h3 style="font-size: 1.3rem; font-weight: 800;">Indikator Napas Bumi</h3>
+        <p class="text-muted" style="font-size: 0.88rem;">Geser slider untuk mensimulasikan dampak kebiasaan hemat energi Anda.</p>
+
+        <div class="breath-earth-wrapper">
+          <div class="breath-ring" id="breath-ring"></div>
+          <img src="assets/images/earth.jpg" alt="Ilustrasi Bumi Bernapas" class="breath-img" id="breath-img">
+        </div>
+
+        <div id="breath-status" class="breath-status-badge status-sehat">
+          <i class="fa-solid fa-circle-check"></i> Napas Bumi: SEHAT
+        </div>
+
+        <div class="breath-slider-container">
+          <div class="breath-slider-label">
+            <span>Tingkat Efisiensi Energi Anda</span>
+            <span id="breath-score">85/100</span>
+          </div>
+          <input type="range" min="10" max="100" value="85" class="range-slider" id="breath-slider">
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Banner -->
+    <section class="stats-banner">
+      <div class="stat-item">
+        <div class="stat-number" style="font-size: 1.4rem;">Coming Soon</div>
+        <div class="stat-label">Estimasi Reduksi CO₂</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" style="font-size: 1.4rem;">Coming Soon</div>
+        <div class="stat-label">Edisi Jurnal Riset</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" style="font-size: 1.4rem;">Coming Soon</div>
+        <div class="stat-label">Indeks Kesadaran Merek</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" style="font-size: 1.4rem;">Coming Soon</div>
+        <div class="stat-label">Responden Observasi</div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Interactive Article Modal Reader -->
+  <div class="article-modal-overlay" id="article-modal">
+    <div class="article-modal-content">
+      <button class="article-modal-close" id="modal-close-btn" title="Tutup Artikel">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Article Header -->
+      <div id="modal-article-header">
+        <span class="category-badge" id="modal-article-category">Riset</span>
+        <h1 id="modal-article-title" style="font-size: 2.2rem; font-weight: 800; margin: 1rem 0; line-height: 1.25;">Judul Artikel</h1>
+        
+        <div class="article-meta" style="margin-bottom: 1.5rem;">
+          <div class="author-pill">
+            <img src="assets/images/earth.jpg" alt="Penulis" class="author-avatar-sm">
+            <span id="modal-article-author">Penulis Artikel</span>
+          </div>
+          <span><i class="fa-regular fa-calendar me-1"></i> <span id="modal-article-date">24 Sep 2026</span></span>
+          <span><i class="fa-regular fa-clock me-1"></i> <span id="modal-article-readtime">5 Min Baca</span></span>
+        </div>
+
+        <div style="border-radius: var(--radius-md); overflow: hidden; margin-bottom: 2rem; max-height: 400px;">
+          <img id="modal-article-cover" src="assets/images/article_eco_tech.jpg" alt="Cover Artikel" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+      </div>
+
+      <!-- Simulated Narration Player Bar -->
+      <div class="article-audio-bar">
+        <button class="audio-play-btn" id="modal-audio-btn" title="Dengarkan Narasi Artikel">
+          <i class="fa-solid fa-play"></i>
+        </button>
+        <div class="audio-info">
+          <div class="audio-title">Dengarkan Versi Audio Narasi</div>
+          <div class="audio-progress">
+            <div class="audio-progress-fill" id="modal-audio-progress"></div>
+          </div>
+        </div>
+        <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted);" id="modal-audio-time">0:00 / 2:30</span>
+      </div>
+
+      <!-- Editorial Body Content -->
+      <div class="editorial-article-body" id="modal-article-body">
+        <!-- Body html populated dynamically -->
+      </div>
+
+      <!-- Modal Footer & Social Actions -->
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--bg-card-border); flex-wrap: wrap; gap: 1rem;">
+        <button class="like-btn" id="modal-like-btn" style="font-size: 1rem;">
+          <i class="fa-regular fa-heart" style="font-size: 1.2rem;"></i> Suka Artikel (<span id="modal-like-count">142</span>)
+        </button>
+
+        <div style="display: flex; gap: 1rem; align-items: center; color: var(--text-muted);">
+          <span style="font-weight: 600; font-size: 0.9rem;">Bagikan:</span>
+          <a href="#" style="color: var(--primary); font-size: 1.1rem;"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" style="color: var(--primary); font-size: 1.1rem;"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" style="color: var(--primary); font-size: 1.1rem;"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div>
+        <div class="logo" style="margin-bottom: 1rem;">
+          <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+          <span>Bumi<span class="gradient-text">Bernapas</span></span>
+        </div>
+        <p class="text-muted" style="max-width: 360px;">Media publikasi artikel edukasi & monitoring aksi nyata hemat energi serta keberlanjutan lingkungan.</p>
+      </div>
+      <div>
+        <h4 style="margin-bottom: 1rem; font-weight: 700;">Navigasi Portal</h4>
+        <ul style="display: flex; flex-direction: column; gap: 0.5rem;" class="text-muted">
+          <li><a href="index.html">Beranda Redaksi</a></li>
+          <li><a href="artikel.html">Jurnal Artikel</a></li>
+          <li><a href="data.html">Laporan Data & Observasi</a></li>
+          <li><a href="aksi.html">Checklist & Kalkulator</a></li>
+          <li><a href="tentang.html">Tim Peneliti</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="margin-bottom: 1rem; font-weight: 700;">Kontak Redaksi</h4>
+        <div style="display: flex; gap: 1rem; font-size: 1.2rem; color: var(--primary);">
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Bumi Bernapas - Jurnal Edukasi Gaya Hemat Berkelanjutan.
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+{
+  "ringkasan_umum": {
+    "total_responden": "Coming Soon",
+    "periode_observasi": "Tahap Pengumpulan Data (Coming Soon)",
+    "total_penghematan_co2_kg": "Coming Soon",
+    "rata_skor_kesadaran": "Coming Soon"
+  },
+  "artikel": [
+    {
+      "id": 101,
+      "judul": "Mengapa Menghemat Listrik Rumah Tangga Adalah Kunci Utama Menyelamatkan Suhu Bumi?",
+      "kategori": "Riset & Energetika",
+      "subkategori": "Laporan Utama",
+      "penulis": "Tim Peneliti Bumi Bernapas",
+      "peran_penulis": "Riset Efisiensi Energi",
+      "tanggal": "Coming Soon",
+      "waktu_baca": "5 Min Baca",
+      "gambar": "assets/images/article_eco_tech.jpg",
+      "suka_count": 0,
+      "ringkasan": "Konsumsi energi bahan bakar fosil di sektor rumah tangga menyumbang emisi karbon perkotaan. Pelajari bagaimana aksi kecil di rumah membawa dampak langsung terhadap pemulihan ekosistem.",
+      "konten_lengkap": "<p class='lead-text'>Perubahan iklim global bukan lagi sekadar prediksi masa depan, melainkan kenyataan yang dampaknya sudah dirasakan langsung dalam kehidupan kita sehari-hari. Mulai dari gelombang panas ekstrem hingga cuaca yang tidak menentu, semua berakar dari peningkatan konsentrasi Gas Rumah Kaca (GRK) di atmosfer.</p><h3>Mengapa Rumah Tangga Menjadi Kunci Utama?</h3><p>Banyak dari kita menganggap bahwa emisi karbon terbesar berasal dari industri berat dan pabrik manufaktur. Namun, data observasi menunjukkan bahwa sektor pemukiman dan rumah tangga memberikan kontribusi akumulatif yang sangat masif terhadap total konsumsi daya nasional.</p><blockquote class='article-quote'>\"Setiap 1 kWh listrik yang dihemat dari pemakaian rumah tangga berkontribusi langsung pada penurunan emisi di atmosfer.\"</blockquote><h3>Tiga Langkah Sederhana Memulai Efisiensi Energi:</h3><ul><li><strong>Stop Vampire Power:</strong> Cabut semua alat elektronik yang sedang berada pada mode standby saat tidak digunakan.</li><li><strong>Optimalkan Suhu AC:</strong> Menyetel suhu pada 24°C - 26°C dapat menghemat beban kompresor secara signifikan.</li><li><strong>Transisi ke Lampu LED:</strong> Lampu LED mengonsumsi energi jauh lebih sedikit dibanding lampu konvensional.</li></ul>"
+    },
+    {
+      "id": 102,
+      "judul": "Panduan Zero Waste: Cara Praktis Mengurangi Sampah Plastik dari Dapur",
+      "kategori": "Gaya Hidup",
+      "subkategori": "Panduan Praktis",
+      "penulis": "Tim UX & Environment",
+      "peran_penulis": "Spesialis Pengelolaan Sampah",
+      "tanggal": "Coming Soon",
+      "waktu_baca": "4 Min Baca",
+      "gambar": "assets/images/article_zero_waste.jpg",
+      "suka_count": 0,
+      "ringkasan": "Dapur adalah penyumbang sampah plastik sekali pakai. Temukan tips mudah beralih ke wadah daur ulang dan kantong belanja ramah lingkungan.",
+      "konten_lengkap": "<p class='lead-text'>Setiap tahun, ton sampah plastik sekali pakai berakhir di tempat pembuangan akhir dan mencemari lingkungan. Kebanyakan dari sampah ini berasal dari pembungkus makanan dan kantong belanja harian.</p><h3>Langkah Praktis Menuju Dapur Ramah Lingkungan</h3><p>Beralih ke gaya hidup minim sampah (zero waste) tidak harus dilakukan secara drastis dalam semalam. Anda bisa memulainya dari dapur rumah dengan langkah-langkah bertahap:</p><ul><li><strong>Siapkan Tas Belanja Kain:</strong> Selalu simpan 2-3 kantong belanja lipat di dalam tas atau kendaraan Anda.</li><li><strong>Gunakan Wadah Kaca & Stainless:</strong> Hindari pembungkus plastik tipis untuk menyimpan bahan makanan di kulkas.</li><li><strong>Pilah Sampah Organik:</strong> Sisa sayuran dan buah dapat diolah menjadi kompos alami bagi tanaman rumah.</li></ul>"
+    },
+    {
+      "id": 103,
+      "judul": "Misteri Standby Power: Mengapa Alat Elektronik Mati Tetap Menyedot Daya?",
+      "kategori": "Teknologi Hijau",
+      "subkategori": "Edukasi Daya",
+      "penulis": "Analis Daya Listrik",
+      "peran_penulis": "Riset Kelistrikan",
+      "tanggal": "Coming Soon",
+      "waktu_baca": "3 Min Baca",
+      "gambar": "assets/images/lamp.jpg",
+      "suka_count": 0,
+      "ringkasan": "Mode standby pada TV, AC, dan charger laptop menyedot daya tersembunyi yang menambah beban tagihan listrik Anda.",
+      "konten_lengkap": "<p class='lead-text'>Apakah Anda sering membiarkan kabel steker kulkas, TV, atau charger laptop tetap terpasang di stopkontak meskipun perangkat dalam kondisi mati? Fenomena ini dikenal dalam dunia kelistrikan sebagai <em>Vampire Draw</em> atau <em>Standby Power</em>.</p><p>Meskipun lampu indikator perangkat tampak mati, trafo internal tetap menyerap arus listrik mikro untuk mempertahankan fungsi remote control atau clock display. Jika diakumulasikan, energi yang terbuang ini setara dengan menyalakan lampu penerangan nonstop.</p>"
+    },
+    {
+      "id": 104,
+      "judul": "Laporan Observasi Emisi & Kampanye Gaya Hemat Berkelanjutan",
+      "kategori": "Data & Observasi",
+      "subkategori": "Laporan Riset",
+      "penulis": "Tim Data & Analytics",
+      "peran_penulis": "Peneliti Observasi Emisi",
+      "tanggal": "Coming Soon",
+      "waktu_baca": "6 Min Baca",
+      "gambar": "assets/images/earth.jpg",
+      "suka_count": 0,
+      "ringkasan": "Laporan observasi mengenai efektivitas edukasi dan monitoring aksi harian dalam menekan emisi CO₂ bulanan.",
+      "konten_lengkap": "<p class='lead-text'>Program partisipatif Bumi Bernapas mencatat pencapaian positif dalam tren konsumsi listrik dan pengurangan sampah masyarakat.</p><p>Data dan fakta observasi lapangan lengkap akan disajikan secara transparan setelah seluruh pengumpulan data survei diverifikasi.</p>"
+    }
+  ],
+  "observasi_bulanan": []
+}
